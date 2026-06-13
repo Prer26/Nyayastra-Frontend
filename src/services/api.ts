@@ -4,7 +4,7 @@ import axios from "axios";
 
 const API = axios.create({
   baseURL:
-    "https://nyayastra-backend-1.onrender.com/",
+    "https://nyayastra-backend-1.onrender.com",
 });
 
 export const sendMessageToAI =
